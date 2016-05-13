@@ -1,0 +1,1910 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"LogoutRe",
+				"LogoutRequest"
+			],
+			[
+				"Session",
+				"SessionUserResposne"
+			],
+			[
+				"Parse",
+				"ParseInt	i int64, err error ƒ"
+			],
+			[
+				"Get",
+				"GetAdslotId	string ƒ"
+			],
+			[
+				"antis",
+				"antispamMaxClickRule	struct ʈ"
+			],
+			[
+				"antispamMax",
+				"antispamMaxClickFilter	struct ʈ"
+			],
+			[
+				"Ap",
+				"Alpha3	string ν"
+			],
+			[
+				"I",
+				"Iso	Iso3166_1 ν"
+			],
+			[
+				"Par",
+				"ParseIP	net.IP ƒ"
+			],
+			[
+				"New",
+				"NewScanner	*bufio.Scanner ƒ"
+			],
+			[
+				"Ads",
+				"Adslot_CompJs	struct ʈ"
+			],
+			[
+				"Ad",
+				"Adslot_CompJs	struct ʈ"
+			],
+			[
+				"De",
+				"DecryptPKCS1v15	out []byte, err error ƒ"
+			],
+			[
+				"Rea",
+				"Reader	io.Reader ν"
+			],
+			[
+				"Event_extra",
+				"Event_Extra_Item	struct ʈ"
+			],
+			[
+				"Event",
+				"EventEncoder	struct ʈ"
+			],
+			[
+				"Even",
+				"EventEncoder	struct ʈ"
+			],
+			[
+				"eventDesc",
+				"eventDescString	string ν"
+			],
+			[
+				"con",
+				"context	*cli.Context ν"
+			],
+			[
+				"LO",
+				"LoadConfig	 ƒ"
+			],
+			[
+				"Encod",
+				"EncodeToString	string ƒ"
+			],
+			[
+				"StatusF",
+				"StatusFound	 Ɩ"
+			],
+			[
+				"for",
+				"formatEvent	string ƒ"
+			],
+			[
+				"StatusBad",
+				"StatusBadRequest	 Ɩ"
+			],
+			[
+				"Write",
+				"WriteHeader	 ƒ"
+			],
+			[
+				"Response",
+				"ResponseWriter	interface ¡"
+			],
+			[
+				"IMAGE",
+				"IMAGE_TAG"
+			],
+			[
+				"ex",
+				"executiveBD	sql.NullString ν"
+			],
+			[
+				"NU",
+				"NullString	struct ʈ"
+			],
+			[
+				"GetSear",
+				"GetSearchTime	time.Time ƒ"
+			],
+			[
+				"Sha",
+				"ShadowAdIndex	struct ʈ"
+			],
+			[
+				"Lo",
+				"Local	*time.Location ν"
+			],
+			[
+				"Tim",
+				"TimeZoneOffset	int ν"
+			],
+			[
+				"T",
+				"TimeZoneName	string ν"
+			],
+			[
+				"init",
+				"initDDSClient	error ƒ"
+			],
+			[
+				"ind",
+				"indexTimestamp	time.Time ν"
+			],
+			[
+				"os",
+				"osType	sql.NullInt64 ν"
+			],
+			[
+				"par",
+				"parseOS	protocol.OS ƒ"
+			],
+			[
+				"signal",
+				"signalCh	chan os.Signal ν"
+			],
+			[
+				"D",
+				"DDSClient	*client.Client ν"
+			],
+			[
+				"Tiem",
+				"TimeZoneOffset	int ν"
+			],
+			[
+				"Time",
+				"TimeZoneName	string ν"
+			],
+			[
+				"index",
+				"indexTimestamp	time.Time ν"
+			],
+			[
+				"pushR",
+				"pushRetryDelay	time.Duration ν"
+			],
+			[
+				"OS_",
+				"OS_IOS	 Ɩ"
+			],
+			[
+				"sha",
+				"shadowRatio	float32 ν"
+			],
+			[
+				"parseNull",
+				"parseNullUint32Array	[]uint32, error ƒ"
+			],
+			[
+				"parse",
+				"parseStringArray	[]string ƒ"
+			],
+			[
+				"V",
+				"Valid	bool ν"
+			],
+			[
+				"Nul",
+				"NullString	struct ʈ"
+			],
+			[
+				"Rt",
+				"TrimRight	string ƒ"
+			],
+			[
+				"Null",
+				"NullInt64	struct ʈ"
+			],
+			[
+				"Query",
+				"QueryRow	*sql.Row ƒ"
+			],
+			[
+				"Qu",
+				"QueryRow	*sql.Row ƒ"
+			],
+			[
+				"json",
+				"jsonify	string ƒ"
+			],
+			[
+				"Cl",
+				"DDSClient	protocol.DDSClient ν"
+			],
+			[
+				"Lis",
+				"ListenAddr	string ν"
+			],
+			[
+				"time",
+				"timestamp	time.Time ν"
+			],
+			[
+				"Global",
+				"GlobalString	string ƒ"
+			],
+			[
+				"Glo",
+				"GlobalDuration	time.Duration ƒ"
+			],
+			[
+				"biu",
+				"BUILD_CODE"
+			],
+			[
+				"err",
+				"errTopicNotFound	error ν"
+			],
+			[
+				"Mo",
+				"ModTime	time.Time ƒ"
+			],
+			[
+				"Read",
+				"ReadFile	[]byte, error ƒ"
+			],
+			[
+				"Ch",
+				"Chtimes	error ƒ"
+			],
+			[
+				"get",
+				"getFileMode	os.FileMode ƒ"
+			],
+			[
+				"erro",
+				"errorCallback	func(error) error ν"
+			],
+			[
+				"Requ",
+				"PushRequest	struct ʈ"
+			],
+			[
+				"Li",
+				"ListenAddr	string ν"
+			],
+			[
+				"grp",
+				"grpcServer	*grpc.Server ν"
+			],
+			[
+				"de",
+				"defaultPushRetry	time.Duration ν"
+			],
+			[
+				"top",
+				"topicPushRetry	map[string]time.Duration ν"
+			],
+			[
+				"ma",
+				"maxproc	*int ν"
+			],
+			[
+				"GO",
+				"GOMAXPROCS	int ƒ"
+			],
+			[
+				"Pu",
+				"PullResponse	struct ʈ"
+			],
+			[
+				"Pull",
+				"PullResponse	struct ʈ"
+			],
+			[
+				"U",
+				"Unix	int64 ƒ"
+			],
+			[
+				"M",
+				"ModTime	time.Time ƒ"
+			],
+			[
+				"Push",
+				"PushResponse	struct ʈ"
+			],
+			[
+				"Pus",
+				"PushResponse	struct ʈ"
+			],
+			[
+				"gr",
+				"grpcServer	*grpc.Server ν"
+			],
+			[
+				"Je",
+				"JesgooStrategyReloadInterval	time.Duration ν"
+			],
+			[
+				"ClickStat",
+				"ClickStatReloadInterval	time.Duration ν"
+			],
+			[
+				"Click",
+				"ClickStatReloadInterval	time.Duration ν"
+			],
+			[
+				"IndexFile",
+				"IndexFileReloadInterval	time.Duration ν"
+			],
+			[
+				"Sh",
+				"ShadowAdServer	struct ʈ"
+			],
+			[
+				"Pa",
+				"Parse	 ƒ"
+			],
+			[
+				"stat",
+				"statValues	ClickStatValues ν"
+			],
+			[
+				"Id",
+				"IdeaIds	[]uint32 ν"
+			],
+			[
+				"st",
+				"strategy	*JesgooShadowAdStrategy ν"
+			],
+			[
+				"Shadow",
+				"ShadowAdAction"
+			],
+			[
+				"Shad",
+				"ShadowAdStrategyAction"
+			],
+			[
+				"match",
+				"matchWhiteMedia	bool ƒ"
+			],
+			[
+				"UN",
+				"OS_UNKNOWN_OS	 Ɩ"
+			],
+			[
+				"Re",
+				"Regions	[]uint32 ν"
+			],
+			[
+				"Fa",
+				"fakeClickExperiment	*Experiment ν"
+			],
+			[
+				"ep",
+				"expected	 ν"
+			],
+			[
+				"lo",
+				"location	*ipipnet.Location ν"
+			],
+			[
+				"conf",
+				"configPath	*string ν"
+			],
+			[
+				"load",
+				"loadFakeClickExperiment	error ƒ"
+			],
+			[
+				"LoadToml",
+				"LoadTomlStruct	error ƒ"
+			],
+			[
+				"Exp",
+				"Experiment	map[string]*ExpNode ʈ"
+			],
+			[
+				"t",
+				"traffic	*Traffic ν"
+			],
+			[
+				"GetCi",
+				"GetCityID	uint64 ƒ"
+			],
+			[
+				"GetPro",
+				"GetProvinceID	uint64 ƒ"
+			],
+			[
+				"Fake",
+				"FakeClickExpResponse"
+			],
+			[
+				"field",
+				"fieldType	refect.Type ν"
+			],
+			[
+				"Uin",
+				"Uint64	 Ɩ"
+			],
+			[
+				"In",
+				"Int	int64 ƒ"
+			],
+			[
+				"bt",
+				"btreeDegree	int ν"
+			],
+			[
+				"Fiel",
+				"FieldByIndex	reflect.Value ƒ"
+			],
+			[
+				"fie",
+				"fieldType	refect.Type ν"
+			],
+			[
+				"N",
+				"NumField	int ƒ"
+			],
+			[
+				"K",
+				"Kind	reflect.Kind ƒ"
+			],
+			[
+				"Me",
+				"Message	interface ¡"
+			],
+			[
+				"search",
+				"search_province"
+			],
+			[
+				"Boo",
+				"BoolFlag	struct ʈ"
+			],
+			[
+				"GetCou",
+				"GetCountryName	string ƒ"
+			],
+			[
+				"loc",
+				"loclv	int ν"
+			],
+			[
+				"GetPr",
+				"GetProvinceName	string ƒ"
+			],
+			[
+				"GetC",
+				"GetCountryName	string ƒ"
+			],
+			[
+				"String",
+				"StringFlag	struct ʈ"
+			],
+			[
+				"Comman",
+				"Commands	[]cli.Command ν"
+			],
+			[
+				"Defa",
+				"DefaultTimeFormat	string ν"
+			],
+			[
+				"Ngi",
+				"NginxWorkDir	string ν"
+			],
+			[
+				"Deaf",
+				"DefaultTimeFormat	string ν"
+			],
+			[
+				"FindAllStr",
+				"FindAllStringSubmatch	[][]string ƒ"
+			],
+			[
+				"W",
+				"WriteString	n int, err error ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ip",
+		"selected_items":
+		[
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sp",
+				"Set Syntax: Python"
+			],
+			[
+				"ssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"sproto",
+				"Set Syntax: Protocol Buffer"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"prety",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"sjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ss",
+				"Set Syntax: SQL"
+			],
+			[
+				"GoSublime: ",
+				"GoSublime: Add/Remove package"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"spro",
+				"Set Syntax: Protocol Buffer"
+			],
+			[
+				"jsonl",
+				"Pretty JSON: Validate"
+			],
+			[
+				"syntax: toml",
+				"Set Syntax: TOML"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"sg",
+				"Set Syntax: Go"
+			],
+			[
+				"sgo",
+				"Set Syntax: GoSublime: Go"
+			],
+			[
+				"Open",
+				"GoSublime: Open Error Log"
+			],
+			[
+				"stoml",
+				"Set Syntax: TOML"
+			],
+			[
+				"s prot",
+				"Set Syntax: Protocol Buffer"
+			],
+			[
+				"sjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"sj",
+				"Set Syntax: JSON"
+			],
+			[
+				"sprot",
+				"Set Syntax: Protocol Buffer"
+			],
+			[
+				"rp",
+				"Package Control: Remove Package"
+			],
+			[
+				"lp",
+				"Package Control: List Packages"
+			],
+			[
+				"sxml",
+				"Set Syntax: XML"
+			],
+			[
+				"sss",
+				"Set Syntax: SQL"
+			],
+			[
+				"toml",
+				"Set Syntax: TOML"
+			],
+			[
+				"prity",
+				"Pretty JSON: Minify (compress) JSON"
+			],
+			[
+				"build",
+				"GoSublime: Run build command"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"GoSublime: imp",
+				"GoSublime: Go to imports section"
+			],
+			[
+				"si",
+				"Set Syntax: INI"
+			],
+			[
+				"sini",
+				"Set Syntax: INI"
+			],
+			[
+				"ini",
+				"Set Syntax: INI"
+			],
+			[
+				"smake",
+				"Set Syntax: Makefile"
+			],
+			[
+				"st",
+				"Set Syntax: Thrift"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/yangchenxing/workspace/go-logging"
+	],
+	"file_history":
+	[
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/RoleAuthFilter.go",
+		"/Users/yangchenxing/workspace/gocode/sublime-projects/uniondashboard.sublime-project",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/antispam.maxclick.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/avalon/protocol/protocol.proto",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/mcclient.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/antispam.badmethod.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/antispam.maxctr.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/antispam.dedup.ip.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/antispam.dedup.searchid.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/antispam.dedup.user.go",
+		"/Users/yangchenxing/gocode/products/ClickServer/conf/antispam.json",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/dumpers/AdslotDictionary/AdslotDictionaryDumper.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/DDCenter/pusher.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/dumpers/DSPStrategy/DSPStrategyDumper.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/analyzer.clickposition.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/media.adslot.daily.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/ReportValidator.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/withdraw.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/WithdrawHandler2.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/logging/config.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/logging/writer.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/logging/logging.go",
+		"/Users/yangchenxing/workspace/gocode/src/github.com/yangchenxing/goipipnet/datparser.go",
+		"/Users/yangchenxing/workspace/gocode/src/github.com/yangchenxing/goipipnet/cmd/goipipnet/main.go",
+		"/Users/yangchenxing/Library/Application Support/Sublime Text 3/Packages/User/GoSublime.sublime-settings",
+		"/Users/yangchenxing/Library/Application Support/Sublime Text 3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/config.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AntispamOffline/LastCTR/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/DDCenter/config.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/DDCenter/ecpmdict.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/ipipnet/ids.go",
+		"/Users/yangchenxing/workspace/goipipnet/ids.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ChargeServer/buffer.go",
+		"/Users/yangchenxing/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/media.traffic.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/handler.click.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/users.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/ConfigureServer/dictionary/dictionary.pb.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/protocol/dictionary.proto",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/ConfigureServer/dictionary/viewer/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/dumpers/ConfigureDictionary/ConfigureDictionaryDumper.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/ConfigureServer/dictionary/dictionary.proto",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/ConfigureServer/dictionary/loader.go",
+		"/Users/yangchenxing/gocode/t.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/protocol/protocol.proto",
+		"/Users/yangchenxing/jesgoo/protocol/protocol.proto",
+		"/Users/yangchenxing/jesgoo/ClickServer/action.miniserver.go",
+		"/Users/yangchenxing/Library/Application Support/Sublime Text 3/Packages/Origami/Origami.sublime-settings",
+		"/Users/yangchenxing/jesgoo/protocol/event.go",
+		"/Users/yangchenxing/jesgoo/protocol/protocol.pb.go",
+		"/Users/yangchenxing/jesgoo/protocol/base64.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/config.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/action.fullserver.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/decoder/main.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/app.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/action.decodeurl.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/action.decodeevent.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/eventdecoder/main.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/miniserver/main.go",
+		"/Users/yangchenxing/jesgoo/ClickServer/app.mini.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/event.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/miniserver/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/miniserver/conf/config.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2/miniserver/conf/logging.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/avalon/protocol/protocol.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report.bak.20150827/media.daily.toml",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/media.daily.toml",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/ud/adslot.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/LoginHandler.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report.bak.20150827/media.adslot.daily.toml",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/adslot.toml",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/adslot.daily.toml",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/media.adslot.traffic.toml",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/user.daily.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/rcv-mergecpm/merge.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/ReportParamInjector.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver/restresource/groresource/GeneralReadonlyResourceHandler.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/report/ud/media.daily.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver/report/ReportHandler.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/CaptchaHandler.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/handlers/ud/media.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver/report/Report.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/CaptchaHandler.go",
+		"/Users/yangchenxing/gocode/products/UnionDashboard/conf/webserver.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/avalon/protocol/event.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/rcv-mergecpm/conf/logging.toml",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms-dashboard/conf/ipipnet.ids",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver/restresource/ResourceHandler.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/UserHandler.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/userinfo/UserInfoDumper.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/material/MaterialSynchronizer.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/index/IndexDumper.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/ChargeHandler.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/LoginHandler.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver/restresource/Resource.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/UserGetter.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ChargeServer/config.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/build/build.sh",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/rcv-mergecpm/build.sh",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/rcv-mergecpm/Dockerfile",
+		"/Users/yangchenxing/Desktop/temp.csv",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms-rcv/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms-rcv/order.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/rcv-mergecpm/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/protocol/index.pb.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/client/client.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/protocol/data.pb.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/protocol/data.proto",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/index.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/server.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/click_stat.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/protocol/index.proto",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/databuilder/conf/config.toml",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/build/conf/config.toml",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/server/main.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/databuilder/index.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/jesgoo_shadow_strategy.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/databuilder/main.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/build/run.sh",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/build/Dockerfile",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/server/server.go",
+		"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms-rcv/conf/config.toml",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/example/main.go",
+		"/Users/yangchenxing/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/server/notify.go",
+		"/Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/example/subscriber/main.go"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"/Users/yangchenxing/gocode/src/github.com/siddontang/go-mysql",
+			"/Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"type",
+			"client",
+			"struct{}",
+			"((user.domain = \"union.jesgoo.com\" OR user.domain = \"union.moogos.com\" OR user.domain = \"l.jesgoo.com\") AND user.id != 36)",
+			"其实",
+			"\\\"",
+			"ignoreExtra",
+			"tracerQuery",
+			"\"\"",
+			"EventEncoder",
+			"Debug",
+			"logging",
+			"encoding",
+			"	",
+			"content",
+			"以缩进形式展现",
+			"eventStr",
+			"formatEvent(event)",
+			"CLEAN_IMAGE",
+			"CLEAN",
+			"Admin",
+			"广告位",
+			"user.",
+			"UDMedia",
+			"UDAllMediaSingleDayReport",
+			"Injector",
+			"report",
+			"Injectors",
+			"nil",
+			"Update",
+			"updateIdeas",
+			"Query",
+			"Close()",
+			"writer",
+			"Qeury",
+			"mariadb.Query",
+			"ClickMaxAge",
+			"chargeType",
+			"charge_type",
+			"CPM",
+			"parseOs",
+			"ic.path",
+			"adList",
+			"c.DDSClient",
+			"errorCallback",
+			"ErrorCallback",
+			"c.connect",
+			"connect",
+			"timestamp",
+			"time.Time",
+			"lock",
+			"updateCallbackWrapper",
+			"Address",
+			"topic",
+			".dataPath",
+			"signalChan",
+			"si",
+			"time.Duration",
+			"Push",
+			"pushRetry",
+			"required ",
+			"IndexFileReloadInterval",
+			"shadowAds",
+			"JesgooShadowAdStrategy_UnitStrategy",
+			"UnitStrategy",
+			"containMedia",
+			"JesgooShadowAdStrategy_Medias",
+			"defaultVal",
+			"data",
+			"ClickStatData",
+			"ShadowAdAction",
+			"ShadowAdStrategyAction",
+			"ClickStatData_",
+			"key1",
+			"value1",
+			"AdIndex",
+			"adIdx",
+			"makeLine",
+			"OS_TYPE",
+			"OsType",
+			"mask",
+			"decodeOnMask",
+			"FakeClickExpResponse",
+			"Response",
+			"Feature",
+			"Experiment",
+			"traffice *Traffic, ad *Ad",
+			"required",
+			"optional",
+			"required",
+			"primaryKeyField",
+			"btreeDegree",
+			"item",
+			"getTypeFielcCache",
+			"fieldCache",
+			"COALSCES",
+			"handleImage",
+			" AS ",
+			"AS",
+			"'",
+			"\\\"",
+			"酷",
+			"resourceTimestamp",
+			"synchronize()",
+			"Update",
+			"updateResource",
+			"update",
+			"nginxLogConfigPatterns",
+			"1",
+			"Length",
+			"Offset",
+			"Jobs",
+			"Parse",
+			"Format",
+			"remote_url",
+			"            \"dsp_info\": {\n                \"dsp\": 1\n            },",
+			"\"crypto_param\": 0,",
+			"IMPRESSION",
+			"src",
+			"-",
+			"Event_Body_Media struct",
+			"Event_Head_CryptoType",
+			"file",
+			"GetType()",
+			"chargeType",
+			"charge_type",
+			"Material",
+			"channelIDPattern"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"    ",
+			"addAntispamCount(event, ",
+			"antispamMeasurement.AddInt(event.transaction, ",
+			"    ",
+			"dashboard/",
+			"",
+			"        ",
+			"    ",
+			"\n",
+			"\\n",
+			"event.Event.Body",
+			"SubScore",
+			"event.subScore(",
+			"event.Event.Body.",
+			"",
+			"IP",
+			"",
+			"[Avalon.structs]",
+			"application.config.Fields",
+			"Clause",
+			"Params",
+			"fieldNames",
+			"webServer",
+			"registeredFilter",
+			"FilteredWebApplication",
+			"WebContext",
+			"SearchIdDedupModule",
+			"signalChan",
+			"sigChan",
+			"0755",
+			"Formatter",
+			"params",
+			"format",
+			"interval",
+			"file",
+			"formatter",
+			"Event",
+			"`user_adslot`",
+			"`media_adslot`",
+			"\"",
+			"Threshold",
+			"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/yangchenxing/Jesgoo/EventReceiver/src/github.com/jesgoo/Avalon/encoding":
+	{
+		"height": 234.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/EventReceiver/src/github.com/jesgoo/EventReceiver":
+	{
+		"height": 112.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/AdvertiserDashboard":
+	{
+		"height": 112.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/UnionDashboard/adslotdict":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/UnionDashboard/dumpers/TemplateDictionary":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/avalon/encoding":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/avalon/iptable/convert":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/avalon/logging":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Go/src/bitbucket.org/jesgoo/avalon/messagequeue/kafka":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/Jesgoo/Jesgoo.Go/src/github.com/jesgoo/AdvertiserDashboard":
+	{
+		"height": 112.0
+	},
+	"output.9o:///Users/yangchenxing/gocode":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AdTargetServer":
+	{
+		"height": 196.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AdvertiserDashboard2":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AntispamOffline/CTRAlarm2":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AntispamOffline/DSPReport":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AntispamOffline/DailyReport":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/AntispamOffline/LastCTR":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ChargeServer":
+	{
+		"height": 183.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ClickServer2":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ConfigureServer":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ConfigureServer/converter":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/DDCenter":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/IPIPNetProxy":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/IndexSyncer":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/IndexSyncer/Client":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/IndexSyncer/Message":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/IndexSyncer/Server":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ShadowAdServer/databuilder":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/avalon/profstats":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/avalon/protocol":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/gib/server":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/gocq":
+	{
+		"height": 161.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/ngx-splitlog":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms-dashboard":
+	{
+		"height": 177.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms-rcv":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/oms/controllers":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/rcv-mergecpm":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/chenxing/util-ip":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard":
+	{
+		"height": 153.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/index":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/material":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/userinfo":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/ConfigureServer/dictionary":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/NginxMaid":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/UnionDashboard/dumpers/MediaDictionary":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/email":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/bitbucket.org/jesgoo/avalon/webserver/restresource":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/jinzhu/gorm":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/client":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/example":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/example/publisher":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/dds/server":
+	{
+		"height": 185.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/influxstats":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/ipipnet":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/logging":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/orm":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/structs":
+	{
+		"height": 100.0
+	},
+	"output.9o:///Users/yangchenxing/gocode/src/github.com/yangchenxing/foochow/structs/toml":
+	{
+		"height": 100.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 112.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 581.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "go-logging.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"protocol.pb.go",
+				"protocol/protocol.pb.go"
+			],
+			[
+				"captchahandler",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/CaptchaHandler.go"
+			],
+			[
+				"protocol.proto",
+				"src/bitbucket.org/chenxing/avalon/protocol/protocol.proto"
+			],
+			[
+				"selle",
+				"src/github.com/jesgoo/protocol/seller_protocol.proto"
+			],
+			[
+				"antispam",
+				"products/ClickServer/conf/antispam.json"
+			],
+			[
+				"protocol.go",
+				"src/bitbucket.org/chenxing/avalon/protocol/protocol.go"
+			],
+			[
+				"filewatch",
+				"src/github.com/yangchenxing/foochow/filewatch/watcher.go"
+			],
+			[
+				"ipipnet/",
+				"src/github.com/yangchenxing/foochow/ipipnet/locator.go"
+			],
+			[
+				"location.go",
+				"src/github.com/yangchenxing/foochow/ipipnet/location.go"
+			],
+			[
+				"proto",
+				"src/bitbucket.org/chenxing/avalon/protocol/protocol.go"
+			],
+			[
+				"oms-rcv",
+				"src/bitbucket.org/chenxing/oms-rcv/bin/oms-rcv"
+			],
+			[
+				"private.go",
+				"src/bitbucket.org/chenxing/oms/private.go"
+			],
+			[
+				"t.go",
+				"t.go"
+			],
+			[
+				"daily.",
+				"products/UnionDashboard/conf/handlers/report/adslot.daily.toml"
+			],
+			[
+				"daily",
+				"bin/DailyReport"
+			],
+			[
+				"antispam.json",
+				"products/ClickServer/conf/antispam.json"
+			],
+			[
+				"ipipnet/locator",
+				"src/github.com/yangchenxing/foochow/ipipnet/locator.go"
+			],
+			[
+				"material",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/material/MaterialSynchronizer.go"
+			],
+			[
+				"sample.",
+				"test/rcv-mergecpm/data/sample.json"
+			],
+			[
+				"admin.go",
+				"src/bitbucket.org/chenxing/oms/admin.go"
+			],
+			[
+				"indexdump",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/index/IndexDumper.go"
+			],
+			[
+				"handler/report/",
+				"products/UnionDashboard/conf/handlers/report/adslot.daily.toml"
+			],
+			[
+				"handler/report",
+				"products/AdvertiserDashboard/conf/handlers/report/cost.toml"
+			],
+			[
+				"protocol/protocol",
+				"src/github.com/jesgoo/protocol/protocol.proto"
+			],
+			[
+				"protocol.prot",
+				"src/bitbucket.org/chenxing/avalon/protocol/protocol.proto"
+			],
+			[
+				"protocol",
+				"src/github.com/jesgoo/protocol/protocol.proto"
+			],
+			[
+				"foochow/ipip",
+				"src/github.com/yangchenxing/foochow/ipipnet/locator.go"
+			],
+			[
+				"order.go",
+				"src/bitbucket.org/chenxing/oms-dashboard/order.go"
+			],
+			[
+				"ecpmdict",
+				"src/bitbucket.org/chenxing/DDCenter/ecpmdict.go"
+			],
+			[
+				"logging.console.toml",
+				"products/AdTargetServer/conf/logging.console.toml"
+			],
+			[
+				"orderdashboard/conf/conf",
+				"products/OrderDashboard/conf/config.toml"
+			],
+			[
+				"logging.toml",
+				"products/OrderDashboard/conf/logging.toml"
+			],
+			[
+				"dockerfile",
+				"src/bitbucket.org/chenxing/oms/Dockerfile"
+			],
+			[
+				"public",
+				"src/bitbucket.org/chenxing/oms/public.go"
+			],
+			[
+				"dictionary.proto",
+				"src/github.com/jesgoo/protocol/dictionary.proto"
+			],
+			[
+				"dictionary.prot",
+				"src/bitbucket.org/chenxing/avalon/protocol/dictionary.proto"
+			],
+			[
+				"order",
+				"src/bitbucket.org/chenxing/oms/order.go"
+			],
+			[
+				"dictionary.pb.go",
+				"src/bitbucket.org/chenxing/avalon/protocol/dictionary.pb.go"
+			],
+			[
+				"products/advertiserdashboard/conf/handler/report/",
+				"products/AdvertiserDashboard/conf/handlers/report/cost.toml"
+			],
+			[
+				"products/adver",
+				"products/AdvertiserDashboard/.gitignore"
+			],
+			[
+				"users.go",
+				"src/bitbucket.org/chenxing/ClickServer2/users.go"
+			],
+			[
+				"event.go",
+				"src/bitbucket.org/chenxing/avalon/protocol/event.go"
+			],
+			[
+				"ae.go",
+				"src/bitbucket.org/chenxing/oms/ae.go"
+			],
+			[
+				"profiling.go",
+				"src/bitbucket.org/chenxing/ChargeServer/profiling.go"
+			],
+			[
+				"buffer.go",
+				"src/github.com/yangchenxing/foochow/influxstats/buffer.go"
+			],
+			[
+				"itemset.go",
+				"src/github.com/yangchenxing/foochow/influxstats/itemset.go"
+			],
+			[
+				"materialsyn",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/material/MaterialSynchronizer.go"
+			],
+			[
+				"materialsynchronizer.go",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/material/MaterialSynchronizer.go"
+			],
+			[
+				"foochow/influ",
+				"src/github.com/yangchenxing/foochow/influxstats/buffer.go"
+			],
+			[
+				"orderdashboard/conf/logging",
+				"products/OrderDashboard/conf/logging.toml"
+			],
+			[
+				"antispamoffline",
+				"src/bitbucket.org/chenxing/AntispamOffline/CTRAlarm2/main.go"
+			],
+			[
+				"foochow/logging/",
+				"src/github.com/yangchenxing/foochow/logging/writer.email.go"
+			],
+			[
+				"orderdashboard/conf",
+				"products/OrderDashboard/conf/config.toml"
+			],
+			[
+				"structs/toml",
+				"src/github.com/yangchenxing/foochow/structs/toml/tomlmap.go"
+			],
+			[
+				"macaron.go",
+				"src/gopkg.in/macaron.v1/macaron.go"
+			],
+			[
+				"config.go",
+				"src/bitbucket.org/chenxing/ClickServer2/config.go"
+			],
+			[
+				"logging.go",
+				"src/github.com/yangchenxing/foochow/logging/logging.go"
+			],
+			[
+				"anti",
+				"products/ClickServer/conf/antispam.json"
+			],
+			[
+				"clickserver/conf/config",
+				"products/ClickServer/conf/config.toml"
+			],
+			[
+				"ctralarm2",
+				"src/bitbucket.org/chenxing/AntispamOffline/CTRAlarm2/main.go"
+			],
+			[
+				"antispam.max",
+				"src/bitbucket.org/chenxing/ClickServer2/antispam.maxctr.go"
+			],
+			[
+				"antispam.go",
+				"src/bitbucket.org/chenxing/ClickServer2/antispam.go"
+			],
+			[
+				"requestform",
+				"src/bitbucket.org/jesgoo/avalon/webserver/RequestForm.go"
+			],
+			[
+				"goimports.go",
+				"src/golang.org/x/tools/imports/imports.go"
+			],
+			[
+				"goimports",
+				"src/golang.org/x/tools/cmd/goimports/goimports.go"
+			],
+			[
+				"userhandler",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/UserHandler.go"
+			],
+			[
+				"protocolproto",
+				"src/bitbucket.org/chenxing/avalon/protocol/protocol.proto"
+			],
+			[
+				"indexdumper",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/index/IndexDumper.go"
+			],
+			[
+				"increm",
+				"src/bitbucket.org/chenxing/gocq/increment.go"
+			],
+			[
+				"increment",
+				"src/bitbucket.org/chenxing/gocq/increment.go"
+			],
+			[
+				"mysql/",
+				"src/github.com/go-sql-driver/mysql/driver.go"
+			],
+			[
+				"temp.json",
+				"temp.json"
+			],
+			[
+				"detector",
+				"src/bitbucket.org/chenxing/AdTargetServer/detector.go"
+			],
+			[
+				"newcookie.go",
+				"src/bitbucket.org/chenxing/ClickServer2/antispam.newcookie.go"
+			],
+			[
+				"extra.go",
+				"src/bitbucket.org/chenxing/ClickServer/antispam.noextra.go"
+			],
+			[
+				"associ",
+				"src/github.com/jinzhu/gorm/association.go"
+			],
+			[
+				"scope_private.go",
+				"src/github.com/jinzhu/gorm/scope_private.go"
+			],
+			[
+				"callback_query",
+				"src/github.com/jinzhu/gorm/callback_query.go"
+			],
+			[
+				"field.go",
+				"src/github.com/jinzhu/gorm/field.go"
+			],
+			[
+				"recov",
+				"src/gopkg.in/macaron.v1/recovery.go"
+			],
+			[
+				"jsonrespon",
+				"src/bitbucket.org/jesgoo/avalon/webserver/JsonResponse.go"
+			],
+			[
+				"router",
+				"src/gopkg.in/macaron.v1/router.go"
+			],
+			[
+				"macaron",
+				"src/gopkg.in/macaron.v1/macaron.go"
+			],
+			[
+				"session.go",
+				"src/github.com/go-macaron/session/session.go"
+			],
+			[
+				"login.go",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/LoginHandler.go"
+			],
+			[
+				"context.go",
+				"src/gopkg.in/macaron.v1/context.go"
+			],
+			[
+				"nsq/",
+				"src/github.com/nsqio/go-nsq/config.go"
+			],
+			[
+				"logger.go",
+				"src/gopkg.in/macaron.v1/logger.go"
+			],
+			[
+				"advertiserdashboard/dumper",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/dumpers/index/IndexDumper.go"
+			],
+			[
+				"dumper",
+				"src/bitbucket.org/chenxing/UnionDashboard/dumper.adslotdict.go"
+			],
+			[
+				"ctralarm/main",
+				"src/bitbucket.org/chenxing/AntispamOffline/CTRAlarm/main.go"
+			],
+			[
+				"protoco.proto",
+				"src/github.com/jesgoo/protocol/protocol.proto"
+			],
+			[
+				"products/clickserver/conf",
+				"products/ClickServer/conf/config.toml"
+			],
+			[
+				"test/clickserver",
+				"test/ClickServer/conf/config.toml"
+			],
+			[
+				"test/clickserver/conf/config",
+				"test/ClickServer/conf/config.toml"
+			],
+			[
+				"globalconfig",
+				"src/bitbucket.org/jesgoo/avalon/config/global/globalconfig.go"
+			],
+			[
+				"locker.go",
+				"src/bitbucket.org/chenxing/ClickServer2/locker.go"
+			],
+			[
+				"invalidregion",
+				"src/bitbucket.org/chenxing/ClickServer2/antispam.invalidregion.go"
+			],
+			[
+				"locator.go",
+				"src/github.com/yangchenxing/foochow/ipipnet/locator.go"
+			],
+			[
+				"test",
+				"data/test.click"
+			],
+			[
+				"antispam.dedup.user",
+				"src/bitbucket.org/chenxing/ClickServer2/antispam.dedup.user.go"
+			],
+			[
+				"antispam.dedup",
+				"src/bitbucket.org/chenxing/ClickServer/antispam.dedup.user.go"
+			],
+			[
+				"products/config",
+				"products/AdTargetServer/conf/config.toml"
+			],
+			[
+				"foochow/in",
+				"src/github.com/yangchenxing/foochow/influxstats/buffer.go"
+			],
+			[
+				"configureserver/conf/logging.toml",
+				"products/ConfigureServer/conf/logging.toml"
+			],
+			[
+				"configureserver/logging.toml",
+				"products/ConfigureServer/conf/logging.toml"
+			],
+			[
+				"gopsutil/process",
+				"src/github.com/shirou/gopsutil/process/process.go"
+			],
+			[
+				"adtargetserver/main",
+				"src/bitbucket.org/chenxing/AdTargetServer/main.go"
+			],
+			[
+				"badmethod",
+				"src/bitbucket.org/chenxing/ClickServer2/antispam.badmethod.go"
+			],
+			[
+				"test/advertiserdashboard/conf/conf",
+				"test/AdvertiserDashboard/conf/config.toml"
+			],
+			[
+				"loginhandler",
+				"src/bitbucket.org/jesgoo/UnionDashboard/LoginHandler.go"
+			],
+			[
+				"userhandler.go",
+				"src/bitbucket.org/jesgoo/UnionDashboard/UserHandler.go"
+			],
+			[
+				"webserver.toml",
+				"products/AdvertiserDashboard/conf/webserver.toml"
+			],
+			[
+				"admin/",
+				"products/AdvertiserDashboard/conf/handlers/admin/login.toml"
+			],
+			[
+				"main.go",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/main.go"
+			],
+			[
+				"chargehandler",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/ChargeHandler.go"
+			],
+			[
+				"loginhandler.",
+				"src/bitbucket.org/jesgoo/UnionDashboard/LoginHandler.go"
+			],
+			[
+				"loginhandler.go",
+				"src/bitbucket.org/jesgoo/AdvertiserDashboard/LoginHandler.go"
+			],
+			[
+				"sessionid",
+				"src/bitbucket.org/jesgoo/avalon/webserver/filter/sessionid/SessionIDFilter.go"
+			],
+			[
+				"sessionfil",
+				"src/bitbucket.org/jesgoo/avalon/webserver/filter/sqlite3session/SQLite3SessionFilter.go"
+			],
+			[
+				"request",
+				"src/bitbucket.org/jesgoo/avalon/webserver/Request.go"
+			],
+			[
+				"docker",
+				"src/bitbucket.org/jesgoo/UnionDashboard/Dockerfile"
+			],
+			[
+				"sessionauth",
+				"src/bitbucket.org/jesgoo/UnionDashboard/SessionAuthFilter.go"
+			],
+			[
+				"user.toml",
+				"conf/UnionDashboard/Handlers/User.toml"
+			],
+			[
+				"apito",
+				"src/bitbucket.org/jesgoo/UnionDashboard/APITokenFilter.go"
+			],
+			[
+				"loginhanl",
+				"src/bitbucket.org/jesgoo/UnionDashboard/LoginHandler.go"
+			],
+			[
+				"clickhandler",
+				"src/bitbucket.org/jesgoo/ClickServer/ClickHandler.go"
+			],
+			[
+				"resourcehandler",
+				"src/bitbucket.org/jesgoo/avalon/webserver/restresource/ResourceHandler.go"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
