@@ -21,7 +21,7 @@ type EMailWriter struct {
 	ch        chan []byte
 }
 
-func (writer *EMailWriter) initialize() {
+func (writer *EMailWriter) Initialize() {
 	// 启动发送守候
 	writer.ch = make(chan []byte)
 	go func() {

@@ -18,7 +18,7 @@ type TimeRotateWriter struct {
 	file     *os.File
 }
 
-func (writer *TimeRotateWriter) initialize() error {
+func (writer *TimeRotateWriter) Initialize() error {
 	var err error
 	// 若文件已经存在，则判断是否需要重命名为一个切分文件
 	if info, err := os.Stat(writer.Path); err == nil {
