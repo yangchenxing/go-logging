@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-type EMailWriter struct {
+type emailWriter struct {
 	Server    string
 	Sender    string
 	Password  string
@@ -21,7 +21,7 @@ type EMailWriter struct {
 	ch        chan []byte
 }
 
-func (writer *EMailWriter) Initialize() {
+func (writer *emailWriter) Initialize() {
 	// 启动发送守候
 	writer.ch = make(chan []byte)
 	go func() {
@@ -40,10 +40,10 @@ func (writer *EMailWriter) Initialize() {
 				}
 			}
 			var buf bytes.Buffer
-			fmt.Fprintf(&buf, "From: %s\r\nTo: %s\r\nSubject: %s\r\nContent-Type: text/plain; charset=UTF-8\r\n",
-				writer.Sender,
-				strings.Join(writer.Receivers, ","),
-				"=?utf-8?B?"+base64.StdEncoding.EncodeToString([]byte(writer.Subject))+"?=")
+			fmt.Fprintf(&buf, "From: %s\r\n", writer.Sender)
+			fmt.Fprintf(&buf, "To: %s\r\n", strings.Join(writer.Receivers, ","))
+			fmt.Fprintf(&buf, "Subject: %s\r\n", "=?utf-8?B?"+base64.StdEncoding.EncodeToString([]byte(writer.Subject))+"?=")
+			buf.WriteString("Content-Type: text/plain; charset=UTF-8\r\n")
 			for elem := messages.Front(); elem != nil; elem = elem.Next() {
 				buf.Write(elem.Value.([]byte))
 			}
@@ -60,7 +60,7 @@ func (writer *EMailWriter) Initialize() {
 	}()
 }
 
-func (writer *EMailWriter) Write(bytes []byte) (int, error) {
+func (writer *emailWriter) Write(bytes []byte) (int, error) {
 	writer.ch <- bytes
 	return len(bytes), nil
 }

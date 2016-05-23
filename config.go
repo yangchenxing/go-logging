@@ -1,13 +1,15 @@
 package logging
 
+// Config defines the configuration of go-logging.
 type Config struct {
-	Handlers []*Handler
+	TimeFormat string
+	Handlers   []*Handler
 }
 
-func LoadConfig(config *Config) {
+// LoadConfig load configuration and setting up the go-logging.
+func LoadConfig(config Config) {
 	newHandlers := make(map[string][]*Handler)
 	for _, handler := range config.Handlers {
-		handler.initialize()
 		for _, level := range handler.Levels {
 			if newHandlers[level] == nil {
 				newHandlers[level] = make([]*Handler, 0, 4)
@@ -16,4 +18,7 @@ func LoadConfig(config *Config) {
 		}
 	}
 	handlers = newHandlers
+	if config.TimeFormat != "" {
+		timeFormat = config.TimeFormat
+	}
 }

@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-type TimeRotateWriter struct {
+type timeRotateWriter struct {
 	sync.Mutex
 	Path     string
 	Split    string
@@ -18,7 +18,7 @@ type TimeRotateWriter struct {
 	file     *os.File
 }
 
-func (writer *TimeRotateWriter) Initialize() error {
+func (writer *timeRotateWriter) Initialize() error {
 	var err error
 	// 若文件已经存在，则判断是否需要重命名为一个切分文件
 	if info, err := os.Stat(writer.Path); err == nil {
@@ -44,7 +44,7 @@ func (writer *TimeRotateWriter) Initialize() error {
 	return nil
 }
 
-func (writer *TimeRotateWriter) rotate(timestamp time.Time) {
+func (writer *timeRotateWriter) rotate(timestamp time.Time) {
 	writer.Lock()
 	defer writer.Unlock()
 
@@ -69,7 +69,7 @@ func (writer *TimeRotateWriter) rotate(timestamp time.Time) {
 	fmt.Fprintf(os.Stderr, "日志切割成功: path=%q, split=%q\n", writer.Path, splitPath)
 }
 
-func (writer *TimeRotateWriter) clean(timestamp time.Time) {
+func (writer *timeRotateWriter) clean(timestamp time.Time) {
 	// 读取切割文件目录
 	splitDir := filepath.Dir(writer.Split)
 	infos, err := ioutil.ReadDir(splitDir)
@@ -95,7 +95,7 @@ func (writer *TimeRotateWriter) clean(timestamp time.Time) {
 	}
 }
 
-func (writer *TimeRotateWriter) Write(bytes []byte) (int, error) {
+func (writer *timeRotateWriter) Write(bytes []byte) (int, error) {
 	writer.Lock()
 	defer writer.Unlock()
 	defer writer.file.Sync()
