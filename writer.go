@@ -26,7 +26,7 @@ func (factory *WriterFactory) Create(data map[string]interface{}) (interface{}, 
 		case "stdout":
 			return os.Stdout, nil
 		case "timerotate":
-			writer := new(TimeRotateWriter)
+			writer := new(timeRotateWriter)
 			if err := factory.MapUnmarshaler(writer, data); err != nil {
 				return nil, err
 			} else if err := writer.Initialize(); err != nil {
