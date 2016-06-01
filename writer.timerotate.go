@@ -9,16 +9,26 @@ import (
 	"time"
 )
 
-type timeRotateWriter struct {
+// TimeRotateWriter write logs to file and rotate the file Periodically.
+type TimeRotateWriter struct {
 	sync.Mutex
-	Path     string
-	Split    string
+	// file path
+	Path string
+
+	// split file path
+	Split string
+
+	// rotate interval
 	Interval time.Duration
-	Keep     time.Duration
-	file     *os.File
+
+	// keep split file duration, the expired split file will be removed
+	Keep time.Duration
+
+	file *os.File
 }
 
-func (writer *timeRotateWriter) Initialize() error {
+// Initialize setup the writer
+func (writer *TimeRotateWriter) Initialize() error {
 	var err error
 	// 若文件已经存在，则判断是否需要重命名为一个切分文件
 	if info, err := os.Stat(writer.Path); err == nil {
@@ -44,7 +54,7 @@ func (writer *timeRotateWriter) Initialize() error {
 	return nil
 }
 
-func (writer *timeRotateWriter) rotate(timestamp time.Time) {
+func (writer *TimeRotateWriter) rotate(timestamp time.Time) {
 	writer.Lock()
 	defer writer.Unlock()
 
@@ -69,7 +79,7 @@ func (writer *timeRotateWriter) rotate(timestamp time.Time) {
 	fmt.Fprintf(os.Stderr, "日志切割成功: path=%q, split=%q\n", writer.Path, splitPath)
 }
 
-func (writer *timeRotateWriter) clean(timestamp time.Time) {
+func (writer *TimeRotateWriter) clean(timestamp time.Time) {
 	// 读取切割文件目录
 	splitDir := filepath.Dir(writer.Split)
 	infos, err := ioutil.ReadDir(splitDir)
@@ -95,7 +105,8 @@ func (writer *timeRotateWriter) clean(timestamp time.Time) {
 	}
 }
 
-func (writer *timeRotateWriter) Write(bytes []byte) (int, error) {
+// Write receives log and write to file
+func (writer *TimeRotateWriter) Write(bytes []byte) (int, error) {
 	writer.Lock()
 	defer writer.Unlock()
 	defer writer.file.Sync()

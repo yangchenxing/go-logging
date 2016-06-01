@@ -11,17 +11,31 @@ import (
 	"time"
 )
 
-type emailWriter struct {
-	Server    string
-	Sender    string
-	Password  string
+// EmailWriter group logs and send as email
+type EmailWriter struct {
+	// Email server
+	Server string
+
+	// Email sender and account name
+	Sender string
+
+	// Email account password
+	Password string
+
+	// Email Receivers
 	Receivers []string
-	Subject   string
-	Delay     time.Duration
-	ch        chan []byte
+
+	// Email subject
+	Subject string
+
+	// the logs arrived after first log in "Delay" duration will be grouped with the first log
+	Delay time.Duration
+
+	ch chan []byte
 }
 
-func (writer *emailWriter) Initialize() {
+// Initialize setup the writer
+func (writer *EmailWriter) Initialize() {
 	// 启动发送守候
 	writer.ch = make(chan []byte)
 	go func() {
@@ -43,7 +57,7 @@ func (writer *emailWriter) Initialize() {
 			fmt.Fprintf(&buf, "From: %s\r\n", writer.Sender)
 			fmt.Fprintf(&buf, "To: %s\r\n", strings.Join(writer.Receivers, ","))
 			fmt.Fprintf(&buf, "Subject: %s\r\n", "=?utf-8?B?"+base64.StdEncoding.EncodeToString([]byte(writer.Subject))+"?=")
-			buf.WriteString("Content-Type: text/plain; charset=UTF-8\r\n")
+			buf.WriteString("Content-Type: text/plain; charset=UTF-8\r\n\r\n")
 			for elem := messages.Front(); elem != nil; elem = elem.Next() {
 				buf.Write(elem.Value.([]byte))
 			}
@@ -60,7 +74,8 @@ func (writer *emailWriter) Initialize() {
 	}()
 }
 
-func (writer *emailWriter) Write(bytes []byte) (int, error) {
+// Write receives logs
+func (writer *EmailWriter) Write(bytes []byte) (int, error) {
 	writer.ch <- bytes
 	return len(bytes), nil
 }
