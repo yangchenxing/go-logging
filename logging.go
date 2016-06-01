@@ -114,30 +114,30 @@ func LogWithSkip(skip int, level string, format string, args ...interface{}) {
 
 // Log log message with default session.
 func Log(level, format string, args ...interface{}) {
-	defaultSession.LogWithSkip(3, level, format, args...)
+	defaultSession.LogWithSkip(2, level, format, args...)
 }
 
 // Debug log message with "debug" level and default session.
 func Debug(format string, args ...interface{}) {
-	defaultSession.LogWithSkip(3, "debug", format, args...)
+	defaultSession.LogWithSkip(2, "debug", format, args...)
 }
 
 // Info log message with "info" level and default session.
 func Info(format string, args ...interface{}) {
-	defaultSession.LogWithSkip(3, "info", format, args...)
+	defaultSession.LogWithSkip(2, "info", format, args...)
 }
 
 // Warn log message with "warn" level and default session.
 func Warn(format string, args ...interface{}) {
-	defaultSession.LogWithSkip(3, "warn", format, args...)
+	defaultSession.LogWithSkip(2, "warn", format, args...)
 }
 
 // Error log message with "error" level and default session.
 func Error(format string, args ...interface{}) {
-	defaultSession.LogWithSkip(3, "error", format, args...)
+	defaultSession.LogWithSkip(2, "error", format, args...)
 }
 
 // Fatal log message with "fatal" level and default session.
 func Fatal(format string, args ...interface{}) {
-	defaultSession.LogWithSkip(3, "fatal", format, args...)
+	defaultSession.LogWithSkip(2, "fatal", format, args...)
 }
