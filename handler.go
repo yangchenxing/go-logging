@@ -23,7 +23,7 @@ type Handler struct {
 
 func (handler *Handler) write(context ...map[string]interface{}) error {
 	var buf bytes.Buffer
-	buf.WriteString(mapformatter.MustFormat(handler.Format, context...))
+	buf.WriteString(mapformatter.Format(handler.Format, context...))
 	buf.WriteRune('\n')
 	text := buf.Bytes()
 	for _, writer := range handler.Writers {
